@@ -29,7 +29,7 @@ Open Fortnite, go to **Search**, and enter the island code to play Tower of Easy
 
 ## Gameplay Preview
 
-[Watch gameplay footage on YouTube](https://youtu.be/syjvCpAUobQ) *(unlisted video)*
+[Watch gameplay footage on YouTube](https://youtu.be/syjvCpAUobQ) 
 
 ## Project Documentation
 
