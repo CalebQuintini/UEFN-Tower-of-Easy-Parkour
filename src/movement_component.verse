@@ -19,13 +19,3 @@ parkour_animation_component := class<final_super>(component):
             AnimComp.SetKeyframes(KeyFrames, KeyFrameMode)
             AnimComp.Play()
             AnimComp.FinishedEvent.Await()
-
-
-        
-
-
-
-
-
-    
-    
