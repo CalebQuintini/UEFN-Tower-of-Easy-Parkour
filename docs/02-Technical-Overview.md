@@ -10,6 +10,8 @@ This document explains how **Tower of Easy Parkour** uses **Verse** and UEFN's *
 - **Verse** is the programming language that implements the game rules, responds to gameplay events, and updates interfaces.
 - **Scene Graph** represents the level using **entities** and **components**. An entity is a game-world object; components attach behavior or data to it. A **prefab** is a reusable arrangement of entities that the game can construct and add to the running level.
 
+To learn more about Scene Graph, see [Epic Games' official Scene Graph documentation](https://dev.epicgames.com/documentation/en-us/fortnite/scene-graph-in-unreal-editor-for-fortnite).
+
 In this project, a parkour course is constructed from a prefab. The manager stores a reference to the active course entity so it can remove that course and create another one without keeping all five courses in the world at once.
 
 ### The permanent starting area
