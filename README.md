@@ -29,7 +29,7 @@ Open Fortnite, go to **Search**, and enter the island code to play Tower of Easy
 
 ## Gameplay Preview
 
-[Watch gameplay footage on YouTube](https://youtu.be/syjvCpAUobQ) *(unlisted video)*
+[Watch gameplay footage on YouTube](https://youtu.be/syjvCpAUobQ) 
 
 ## Project Documentation
 
@@ -44,7 +44,7 @@ For more information:
 
 ### Source Code
 
-The `Verse/` directory contains the Verse source files used to implement the game's functionality.
+The `src/` directory contains the Verse source files used to implement the game's functionality.
 
 **Note:** This repository showcases the Verse source code and technical documentation. The complete UEFN project, including its level assets and prefab configurations, is not included.
 
