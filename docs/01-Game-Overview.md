@@ -90,7 +90,7 @@ flowchart TD
 
 ## Gameplay Footage
 
-[Watch the gameplay preview on YouTube](https://youtu.be/syjvCpAUobQ) (unlisted video).
+[Watch the gameplay preview on YouTube](https://youtu.be/syjvCpAUobQ).
 
 ## Technical Documentation
 
