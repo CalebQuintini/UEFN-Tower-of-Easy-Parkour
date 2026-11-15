@@ -33,7 +33,20 @@ Open Fortnite, go to **Search**, and enter the island code to play Tower of Easy
 
 ## Project Documentation
 
-This repository contains the Verse source code and documentation describing how the gameplay systems work. The key technical feature is the **dynamic course rotation system**, which replaces the active course while resetting players for the next round.
+This repository contains the Verse source code and technical documentation for Tower of Easy Parkour.
+
+The key technical feature is the **dynamic course rotation system**, which uses Scene Graph to remove the active course and spawn a randomly selected replacement.
+
+For more information:
+
+- [Game Overview](docs/01-Game-Overview.md) — An overview of the gameplay mechanics, checkpoints, and course rotation.
+- [Technical Overview](docs/02-Technical-Overview.md) — An explanation of the Verse architecture, Scene Graph prefabs, course management, and other gameplay systems.
+
+### Source Code
+
+The `Verse/` directory contains the Verse source files used to implement the game's functionality.
+
+**Note:** This repository showcases the Verse source code and technical documentation. The complete UEFN project, including its level assets and prefab configurations, is not included.
 
 ## More Games
 
