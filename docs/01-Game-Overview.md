@@ -15,19 +15,23 @@ The player's main goal is to reach the top of the active parkour course. All pla
 Along the way:
 
 - Players jump and navigate platforms to climb higher.
-- Touching a neon-colored hazard eliminates the player and returns them to the starting area.
-- Falling from the course sends the player back to the bottom, where they can try again.
+- Touching a neon-colored hazard eliminates the player and returns them to their most recent checkpoint.
+- Falling from the course also returns the player to their most recent checkpoint.
 - Reaching the top counts as completing the current course and affects the remaining round time.
 
 ![Players begin at the bottom of the course](../assets/InGameScreenshot1.PNG)
 
 ### Neon Hazard Obstacles
 
-Some sections of the tower contain brightly colored obstacles that players must avoid while navigating the platforms. Touching one of these hazards eliminates the player and sends them back to the start of the course. The screenshots below show examples of these obstacle sections from a player's perspective.
+Some sections of the tower contain brightly colored obstacles that players must avoid while navigating the platforms. Touching one of these hazards eliminates the player and returns them to their last checkpoint. The screenshots below show examples of these obstacle sections from a player's perspective.
 
 ![Example of a neon hazard obstacle section](../assets/InGameScreenshot3.PNG)
 
 ![Another view of the neon obstacle section](../assets/InGameScreenshot4.PNG)
+
+### Checkpoints
+
+As players climb the tower, they can reach checkpoints that record their progress. If they fall or are eliminated by an obstacle, they respawn at the most recent checkpoint instead of restarting the entire climb. Checkpoints are reset when the current round ends, so everyone begins the next course from the starting area.
 
 ## Round System
 
@@ -49,7 +53,7 @@ This means the actual duration of a round can be shorter than ten minutes, depen
 
 When the countdown reaches zero, the game performs a round transition:
 
-1. All players are returned to the starting area, including anyone partway through the course.
+1. All players are returned to the starting area, including anyone partway through the course, and their checkpoints are reset.
 2. The current course is **removed** from the level.
 3. A new course is randomly selected from the available courses.
 4. The selected course is **spawned in the same location** as the previous one.
@@ -86,7 +90,7 @@ flowchart TD
 
 ## Gameplay Footage
 
-[Watch the gameplay preview on YouTube](https://youtu.be/syjvCpAUobQ) 
+[Watch the gameplay preview on YouTube](https://youtu.be/syjvCpAUobQ) (unlisted video).
 
 ## Technical Documentation
 
